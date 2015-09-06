@@ -1,4 +1,4 @@
-# Crossword-Puzzles
+# Crossword Puzzles
 Solving crossword puzzles through an exhaustive search.
 
 ![Example Image](https://www.dropbox.com/s/2xovi797weiry6z/puzzle.JPEG?dl=1 "Example")
@@ -6,6 +6,8 @@ Solving crossword puzzles through an exhaustive search.
 #To-do
 
 ### Minor
+- Make code neater / rename functions.
+ 
 - Timing analysis: plot a graph of number of row & columns against time taken to solve puzzle.
 
 - Analyse the problem of 'squizzed' view when grid order is high (≥ 10 rows & columns).
