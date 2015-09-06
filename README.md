@@ -1,7 +1,7 @@
 # Crossword-Puzzles
 Solving crossword puzzles through an exhaustive search.
 
-![Example](/Users/marti/puzzle.JPEG)
+![Example Image](https://www.dropbox.com/s/2xovi797weiry6z/puzzle.JPEG?dl=1 "Example")
 
 #To-do
 
