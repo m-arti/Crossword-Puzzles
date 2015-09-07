@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    110524,       2616]
-NotebookOptionsPosition[    109981,       2594]
-NotebookOutlinePosition[    110333,       2610]
-CellTagsIndexPosition[    110290,       2607]
+NotebookDataLength[    110533,       2615]
+NotebookOptionsPosition[    109990,       2593]
+NotebookOutlinePosition[    110342,       2609]
+CellTagsIndexPosition[    110299,       2606]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -44,10 +44,9 @@ Cell[BoxData[
    RowBox[{
     RowBox[{
      RowBox[{"rand", "[", "]"}], ":=", 
-     RowBox[{"ToUpperCase", "@", 
-      RowBox[{"RandomChoice", "[", 
-       RowBox[{"CharacterRange", "[", 
-        RowBox[{"\"\<a\>\"", ",", "\"\<z\>\""}], "]"}], "]"}]}]}], ";"}], 
+     RowBox[{"RandomChoice", "[", 
+      RowBox[{"CharacterRange", "[", 
+       RowBox[{"\"\<A\>\"", ",", "\"\<Z\>\""}], "]"}], "]"}]}], ";"}], 
    "\[IndentingNewLine]", "\[IndentingNewLine]", 
    RowBox[{
     RowBox[{"alphlist", "=", 
@@ -278,7 +277,7 @@ Cell[BoxData[
    3.650553090200754*^9}, {3.65055313013476*^9, 3.650553208078265*^9}, {
    3.65055325611592*^9, 3.650553272352256*^9}, {3.650553305268564*^9, 
    3.650553306345283*^9}, {3.650553404573476*^9, 3.650553408594408*^9}, 
-   3.65055769407859*^9}],
+   3.65055769407859*^9, {3.6506521973822536`*^9, 3.650652201284597*^9}}],
 
 Cell[BoxData[
  RowBox[{"\[IndentingNewLine]", 
@@ -2610,13 +2609,13 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[558, 20, 437, 12, 46, "Input"],
-Cell[998, 34, 9891, 246, 505, "Input"],
-Cell[10892, 282, 29678, 757, 1440, "Input"],
-Cell[40573, 1041, 2894, 68, 250, "Input"],
-Cell[43470, 1111, 1206, 29, 148, "Input"],
+Cell[998, 34, 9900, 245, 505, "Input"],
+Cell[10901, 281, 29678, 757, 1440, "Input"],
+Cell[40582, 1040, 2894, 68, 250, "Input"],
+Cell[43479, 1110, 1206, 29, 148, "Input"],
 Cell[CellGroupData[{
-Cell[44701, 1144, 6836, 150, 624, "Input"],
-Cell[51540, 1296, 58425, 1295, 521, "Output"]
+Cell[44710, 1143, 6836, 150, 624, "Input"],
+Cell[51549, 1295, 58425, 1295, 521, "Output"]
 }, Open  ]]
 }
 ]

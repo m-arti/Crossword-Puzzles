@@ -7,10 +7,16 @@ Solving crossword puzzles through an exhaustive search.
 
 ### Minor
 - Make code neater / rename functions.
- 
+
 - Timing analysis: plot a graph of number of row & columns against time taken to solve puzzle.
 
-- Analyse the problem of 'squizzed' view when grid order is high (≥ 10 rows & columns).
+- Result analysis:
+
+ * Using ```RandomChoice[CharacterRange["A", "Z"]]``` to generate grid (often) yields more words in the horizontal direction, followed by the vertical direction, and fewer words in the main diagonal & antidiagonal directions.
+
+ * What effect does adding more vowels to the grid have on the results?
+
+- Analyse the problem of 'squeezed' view when grid order is high (≥ 10 rows & columns).
 
 - How to visualise palindromes and repeated words.
 
