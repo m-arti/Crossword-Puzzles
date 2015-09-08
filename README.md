@@ -1,9 +1,18 @@
 # Crossword Puzzles
 Solving crossword puzzles through an exhaustive search.
 
-![Example Image](https://www.dropbox.com/s/2xovi797weiry6z/puzzle.JPEG?dl=1 "Example")
+# Examples
+#####15 x 15 grid
+![Example 1](https://www.dropbox.com/s/dl9er5ccssqcwzg/puzzle.JPEG?dl=1 "Example 1")
 
-#To-do
+##### 5 x 5 grid (fluke)
+![Example 2](https://www.dropbox.com/s/myy657seavmrvg5/Puzzle2.JPEG?dl=1 "Example 2")
+
+##### 7 x 12 grid
+![Example 3](https://www.dropbox.com/s/evh8pwrfx1z87z5/Puzzle3.JPEG?dl=1 "Example 3")
+
+
+# To-do
 
 ### Minor
 - Make code neater / rename functions.
@@ -12,11 +21,9 @@ Solving crossword puzzles through an exhaustive search.
 
 - Result analysis:
 
- * Using ```RandomChoice[CharacterRange["A", "Z"]]``` to generate grid (often) yields more words in the horizontal direction, followed by the vertical direction, and fewer words in the main diagonal & antidiagonal directions.
+ * What effect does adding more vowels to the grid have on the results? (Using ```RandomChoice[CharacterRange["A", "Z"]]``` to generate grid yields mostly three-letter words.)
 
- * What effect does adding more vowels to the grid have on the results?
-
-- Analyse the problem of 'squeezed' view when grid order is high (≥ 10 rows & columns).
+ * How can the grid be generated such that it yields more results longer than three letters?
 
 - How to visualise palindromes and repeated words.
 
