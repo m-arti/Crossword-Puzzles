@@ -9,7 +9,7 @@ Solving crossword puzzles through an exhaustive search.
 ![Example 2](https://www.dropbox.com/s/myy657seavmrvg5/Puzzle2.JPEG?dl=1 "Example 2")
 
 ##### 7 x 12 grid
-![Example 3](https://www.dropbox.com/s/evh8pwrfx1z87z5/Puzzle3.JPEG?dl=1 "Example 3")
+![Example 3](https://www.dropbox.com/s/evh8pwrfx1z87z5/Puzzle3.JPEG?dl=1 "Example 3") 
 
 
 # To-do
